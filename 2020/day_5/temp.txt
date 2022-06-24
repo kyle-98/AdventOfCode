@@ -1,0 +1,36 @@
+if seat[0] == "B":
+        #FRONT = BACK // 2
+        FRONT = BACK - abs(FRONT - BACK) // 2
+    else:
+        #BACK //= 2
+        BACK = FRONT + abs(FRONT - BACK) // 2
+
+    if seat[1] == "B":
+        #FRONT = (BACK // 2) + 1
+        FRONT = BACK - abs(FRONT - BACK) // 2
+    else:
+        #BACK //= 2
+        BACK = FRONT + abs(FRONT - BACK) // 2
+
+    if seat[2] == "B":
+        #FRONT = (BACK // 2) + 1
+        FRONT = BACK - abs(FRONT - BACK) // 2
+    else:
+        #BACK //= 2
+        #BACK = abs((BACK // 2) + FRONT)
+        BACK = FRONT + abs(FRONT - BACK) // 2
+
+    if seat[3] == "B":
+        FRONT = BACK - abs(FRONT - BACK) // 2
+    else:
+        BACK = FRONT + abs(FRONT - BACK) // 2
+
+    if seat[4] == "B":
+        FRONT = BACK - abs(FRONT - BACK) // 2
+    else:
+        BACK = FRONT + abs(FRONT - BACK) // 2
+    
+    if seat[5] == "B":
+        FRONT = BACK - abs(FRONT - BACK) // 2
+    else:
+        BACK = FRONT + abs(FRONT - BACK) // 2

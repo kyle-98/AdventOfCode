@@ -23,12 +23,6 @@ def move_crates(num_crates, start_stack, dest_stack):
     for y in temp_list:
         dest_stack.append(y)
 
-
-    for c in range(num_crates):
-        length = len(start_stack) - 1
-        #dest_stack.append(start_stack[length])
-        #start_stack.pop()
-
 with open(INPUT_FILE, 'r') as infile:
     main_count = 0
     count = 0

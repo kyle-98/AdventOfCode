@@ -90,4 +90,4 @@ print(t[0][1] * t[1][1])
 # all_data[0]['items'].append('69')
 
 #   ATTEMPTS
-# 2713310158 too low
+# 2713310158 too low why did i submit the test input result HUH

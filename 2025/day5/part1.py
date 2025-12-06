@@ -1,5 +1,3 @@
-DEBUG = True
-
 if __name__ == '__main__':
     with open('input.txt', 'r') as f:
         data = f.read()
@@ -23,4 +21,3 @@ if __name__ == '__main__':
                 break
 
     print(fresh_ingredients)
-

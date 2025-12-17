@@ -1,5 +1,5 @@
 def get_area(point1: tuple[int, int], point2: tuple[int, int]) -> float:
-    return abs(point2[0] - point1[0] + 1) * abs(point2[1] - point1[1] + 1) 
+    return (abs(point2[0] - point1[0]) + 1) * (abs(point2[1] - point1[1] + 1) + 1)
 
 
 if __name__ == '__main__':
